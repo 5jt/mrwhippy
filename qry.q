@@ -26,20 +26,22 @@ VANS:`$("1n/A";"Box Van";"Large Van";"Light Van";"Luton Van";"Van";"Unknown";"Ot
 
 // PENALTY CHARGE NOTICES
 system"z 1" / parse dates as dd/mm/yyyy
-DT:"PS*S*F*SPJ" where 1 17 1 6 2 2 1 1 1 1 / data types for CSV columns
+DT:"*S*S*F*SPJ" where 1 17 1 6 2 2 1 1 1 1 / data types for CSV columns
 // local column names to replace Camden's
-LC:`cd`week`ttype`tdesc`ccode`csuffix`cdesc`cctv`zone`street`vcat`vremoved`status`band,
+LC:`ts`week`ttype`tdesc`ccode`csuffix`cdesc`cctv`zone`street`vcat`vremoved`status`band,
 	`err`cancelled`wo`reason`rdesc`foreign`country`appeal`formal,
 	`ward`wardname`east`north`long`lat`location`accuracy`upload`socrata
 DYLO:1 2 / contravention codes for parking on double yellow lines
 
 localise:{[lc;t] / local column names; table
+  delete pts from
   update
-	date:"d"$cd,
-	time:"u"$cd,
+	cdate:`date$pts,
+	ctime:$[`minute;pts]+12:00*ts[;20]="P",
 	ccode:"J"$2#'string ccode,
 	zone:`$3_'string zone
-	from lc xcol t }
+  from update pts:"P"$ts
+  from lc xcol t }
 
 / mark records with financial year
 loadsrc:{[dt;y;year] update fyr:year from(dt;enlist csv)0:y}
@@ -65,7 +67,7 @@ curr:localise[LC,`fyr;]loadsrc[DT;;2020] `$":pcn-current.csv"
 / select records within 100m of station parking bay
 inarea:{scope:CORNER+\:-1 1*FOCUS;select from x where long within scope[0],lat within scope[1],street in STREETS}
 / select records on summer days within daylight
-onsummerday:{select from x where (null date) or $[`mm;date] within 4 9}
+onsummerday:{select from x where $[`mm;cdate] within 4 9,ctime within 09:00 19:00}
 
 / qry::select fyr,date,time,ccode,cdesc,street,vcat,status,east,north,long,lat,location,accuracy,socrata
 / 	from (onsummerday inarea pcn)
@@ -74,11 +76,12 @@ onsummerday:{select from x where (null date) or $[`mm;date] within 4 9}
 / 		/ ccode in DYLO,
 / 		status<>`Cancelled,
 / 		foreign=`No
-qry:{`date`time xdesc select fyr,date,time,ccode,cdesc,street,vcat,status,east,north,long,lat,location,accuracy,socrata
+qry:{`cdate`ctime xdesc select fyr,cdate,ctime,ccode,cdesc,street,vcat,status,east,north,long,lat,location,accuracy,socrata
 	from (onsummerday inarea x)
 	where
 		vcat in VANS,
-		status<>`Cancelled }
+		status<>`Cancelled,
+		foreign<>`Yes }
 
 local:select from qry pcn,curr
 save `local.csv
