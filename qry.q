@@ -8,6 +8,8 @@
 		- Camden parking bays: bays.csv
 		- PCNs for current financial year: "https://opendata.camden.gov.uk/resource/4k7m-4gkk.csv"
 		- metadata: "https://dev.socrata.com/foundry/opendata.camden.gov.uk/4k7m-4gkk"
+
+		Downloaded files renamed for convenience and to minimise typos
 \
 ce:count each
 tc:til count@ / indexes of a list
@@ -55,13 +57,9 @@ import:{
   `pcn set localise[LC,`fyr;](uj)over loadsrc'[dts;csvs;yrs];
   save `pcn }
 
-/ CURRENT: "https://opendata.camden.gov.uk/resource/4k7m-4gkk.csv" / source of current-year PCNs
-refresh:{`pcn set pcn uj localise[LC,`fyr;]loadsrc[DT;;2020] system "curl -s ",CURRENT }
-
 // ACTION
 load `pcn
 curr:localise[LC,`fyr;]loadsrc[DT;;2020] `$":pcn-current.csv"
-/ refresh[]
 
 // QUERIES
 / select records within 100m of station parking bay
@@ -69,13 +67,6 @@ inarea:{scope:CORNER+\:-1 1*FOCUS;select from x where long within scope[0],lat w
 / select records on summer days within daylight
 onsummerday:{select from x where $[`mm;cdate] within 4 9,ctime within 09:00 19:00}
 
-/ qry::select fyr,date,time,ccode,cdesc,street,vcat,status,east,north,long,lat,location,accuracy,socrata
-/ 	from (onsummerday inarea pcn)
-/ 	where
-/ 		vcat in VANS,
-/ 		/ ccode in DYLO,
-/ 		status<>`Cancelled,
-/ 		foreign=`No
 qry:{`cdate`ctime xdesc select fyr,cdate,ctime,ccode,cdesc,street,vcat,status,east,north,long,lat,location,accuracy,socrata
 	from (onsummerday inarea x)
 	where
