@@ -1,0 +1,124 @@
+ccode,cdesc
+1,Parked in a restricted street during prescribed hours
+21,Parked wholly or partly in a suspended bay or space
+5,Parked after the expiry of paid for time
+19,"Parked in a residents' or shared use parking place or zone with an invalid virtual permit or displaying an invalid physical permit or voucher or pay and display ticket, or after the expiry of paid for time - out of date permit"
+34,Being in a bus lane - camera enforcement
+12,"Parked in a residents' or shared use parking place or zone without a valid virtual permit or clearly displaying a valid physical permit or voucher or pay and display ticket issued for that place where required, or without payment of the parking charge"
+53,Failing to comply with a restriction on vehicles entering a pedestrian zone - camera enforcement
+11,Parked without payment of the parking charge
+11,Parked without payment of the parking charge  - mobile phone parking
+47,Stopped on a restricted bus stop/stand - camera enforcement
+21,Parked wholly or partly in a suspended bay or space - residents` bay
+62,Parked with one or more wheels on or over a footpath or any part of a road other than a carriageway
+19,"Parked in a residents' or shared use parking place or zone with an invalid virtual permit or displaying an invalid physical permit or voucher or pay and display ticket, or after the expiry of paid for time - wrong parking zone"
+52,Failing to comply with a prohibition on certain types of vehicle (all vehicles except non-mechanically propelled ones being pushed)
+50,Performing a prohibited turn (no left turn)
+32,Failing to proceed in the direction shown by the arrow on a blue sign (proceeding in the wrong direction)
+25,Parked in a loading place or bay during restricted hours without loading
+50,Performing a prohibited turn (no U turn)
+2,Parked or loading/unloading in a restricted street where waiting and loading/unloading restrictions are in force
+16,Parked in a permit space or zone without a valid virtual permit or clearly displaying a valid physical permit where required - market traders` bay
+50,Performing a prohibited turn (no right turn)
+38,Failing to comply with a sign indicating that vehicular traffic must pass to the specified side of the sign – must pass to the left
+19,"Parked in a residents' or shared use parking place or zone with an invalid virtual permit or displaying an invalid physical permit or voucher or pay and display ticket, or after the expiry of paid for time - residents` bay"
+21,Parked wholly or partly in a suspended bay or space - mobile phone parking
+19,"Parked in a residents' or shared use parking place or zone with an invalid virtual permit or displaying an invalid physical permit or voucher or pay and display ticket, or after the expiry of paid for time- shared use bay"
+5,Parked after the expiry of paid for time - Shared use bay
+16,Parked in a permit space or zone without a valid virtual permit or clearly displaying a valid physical permit where required- car club bay
+21,Parked wholly or partly in a suspended bay or space - pay & display
+40,Parked in a designated disabled persons parking place without displaying a valid disabled persons badge in the prescribed manner
+33,Using a route restricted to certain vehicles (local buses only)
+16,Parked in a permit space or zone without a valid virtual permit or clearly displaying a valid physical permit where required
+5,Parked after the expiry of paid for time mobile phone parking
+52,Failing to comply with a prohibition on certain types of vehicle (no motor vehicles)
+47,Stopped on a restricted bus stop/stand
+24,Not parked correctly within the markings of the bay or space
+51,Failing to comply with a no entry restriction - camera enforcement
+31,Entering and stopping in a box junction when prohibited - camera enforcement
+28,"Parked in a special enforcement area on part of the carriageway raised to meet the level of a footway, cycle track or verge"
+99,Stopped on a pedestrian crossing or crossing area marked by zigzags
+21,Parked wholly or partly in a suspended bay or space - shared use bay
+21,Parked wholly or partly in a suspended bay or space - motor cycle bay
+16,Parked in a permit space or zone without a valid virtual permit or clearly displaying a valid physical permit where required- business bay
+21,Parked wholly or partly in a suspended bay or space - market traders` bay
+30,Parking for longer than permitted blue (badge holder)
+1,Parked in a restricted street during prescribed hours - blue badge holder
+14,Parked in an electric vehicles` charging place during restricted hours without charging
+27,"Parked in a special enforcement area adjacent to a footway, cycle track or verge lowered to meet the level of the carriageway"
+2,Parked or loading/unloading in a restricted street where waiting and loading/unloading restrictions are in force - blue badge holder
+62,Parked with one or more wheels on or over a footpath or any part of a road other than a carriageway - all wheels on footway
+16,Parked in a permit space or zone without a valid virtual permit or clearly displaying a valid physical permit where required- doctor`s bay
+23,Parked in a parking place or area not designated for that class of vehicle - buses only
+23,Parked in a parking place or area not designated for that class of vehicle - motor cycle bay
+26,Parked in a special enforcement area more than 50cm from the edge of the carriageway and not within a designated parking place
+23,Parked in a parking place or area not designated for that class of vehicle - ambulance bay
+62,Parked with one or more wheels on or over a footpath or any part of a road other than a carriageway - partly on footway
+62,Parked with one or more wheels on or over a footpath or any part of a road other than a carriageway - on vehicle crossover
+23,Parked in a parking place or area not designated for that class of vehicle
+41,Stopped in a parking place designated for diplomatic vehicles
+30,Parked for longer than permitted free parking bay
+30,Parked for longer than permitted - electric vehicles bay
+19,"Parked in a residents' or shared use parking place or zone with an invalid virtual permit or displaying an invalid physical permit or voucher or pay and display ticket, or after the expiry of paid for time - electronic payment"
+21,Parked wholly or partly in a suspended bay or space - car club bay
+61,"A heavy commercial vehicle wholly or partly parked on a footway, verge or land between two carriageways"
+21,Parked wholly or partly in a suspended bay or space - loading place
+32,Failing to proceed in the direction shown by the arrow on a blue sign (passing to the wrong side of the sign)
+23,Parked in a parking place or area not designated for that class of vehicle - free parking bay
+11,Parked without payment of the parking charge - motor cycle bay
+25,Parked in a loading place or bay during restricted hours without loading - goods vehicle loading bays
+32,Failing to proceed in the direction shown by the arrow on a blue sign (one way traffic)
+1,Parked in a restricted street during prescribed hours - temporary traffic order
+34,Being in a bus lane
+61,"A heavy commercial vehicle wholly or partly parked on a footway, verge or land between two carriageways - all wheels on footway"
+30,Parked for longer than permitted - mobile phone parking
+55,A commercial vehicle parked in a restricted street in contravention of the overnight waiting ban
+24,Not parked correctly within the markings of the bay or space - shared use bay
+5,Parked after the expiry of paid for time - Pay & display
+19,"Parked in a residents' or shared use parking place or zone with an invalid virtual permit or displaying an invalid physical permit or voucher or pay and display ticket, or after the expiry of paid for time - incorrect VRM"
+29,Failing to comply with a one-way restriction
+19,"Parked in a residents' or shared use parking place or zone with an invalid virtual permit or displaying an invalid physical permit or voucher or pay and display ticket, or after the expiry of paid for time - obscured / illegible permit"
+24,Not parked correctly within the markings of the bay or space - free parking bay
+62,Parked with one or more wheels on or over a footpath or any part of a road other than a carriageway - one wheel on footway
+27,"Parked in a special enforcement area adjacent to a footway, cycle track or verge lowered to meet the level of the carriageway - blue badge holder"
+47,Stopped on a restricted bus stop/stand - red route
+42,Parked in a parking place designated for police vehicles
+63,Parked with engine running where prohibited
+28,"Parked in a special enforcement area on part of the carriageway raised to meet the level of a footway, cycle track or verge - blue badge holder"
+1,Parked in a restricted street during prescribed hours - camera enforcement
+24,Not parked correctly within the markings of the bay or space - electric vehicles bay
+62,Parked with one or more wheels on or over a footpath or any part of a road other than a carriageway - on grass verge
+24,Not parked correctly within the markings of the bay or space - goods vehicle loading bays
+24,Not parked correctly within the markings of the bay or space - car club bay
+1,Parked in a restricted street during prescribed hours - out of date permit
+31,Entering and stopping in a box junction when prohibited
+5,Failing to comply with a no entry restriction
+53,Failing to comply with a restriction on vehicles entering a pedestrian zone
+21,Parked wholly or partly in a suspended bay or space - buses only
+2,Parked or loading/unloading in a restricted street where waiting and loading/unloading restrictions are in force - temporary traffic order
+61,"A heavy commercial vehicle wholly or partly parked on a footway, verge or land between two carriageways - partly on footway"
+16,Parked in a permit space or zone without a valid virtual permit or clearly displaying a valid physical permit where required - out of date permit
+5,Parked after the expiry of paid for time - electric vehicles bay
+21,Parked wholly or partly in a suspended bay or space - voucher
+61,"A heavy commercial vehicle wholly or partly parked on a footway, verge or land between two carriageways - one wheel on footway"
+24,Not parked correctly within the markings of the bay or space - loading place
+19,"Parked in a residents' or shared use parking place or zone with an invalid virtual permit or displaying an invalid physical permit or voucher or pay and display ticket, or after the expiry of paid for time - wrong type of voucher"
+16,Parked in a permit space or zone without a valid virtual permit or clearly displaying a valid physical permit where required - obscured / illegible permit
+21,Parked wholly or partly in a suspended bay or space - business bay
+48,"Stopped in a restricted area outside a school, a hospital or a fire, police or ambulance station when prohibited"
+16,Parked in a permit space or zone without a valid virtual permit or clearly displaying a valid physical permit where required- dedicated disabled bay
+1,Parked in a restricted street during prescribed hours - obsured / illegible permit
+61,"A heavy commercial vehicle wholly or partly parked on a footway, verge or land between two carriageways - on grass verge"
+21,Parked wholly or partly in a suspended bay or space - doctor`s bay
+2,Parked or loading/unloading in a restricted street where waiting and loading/unloading restrictions are in force - camera enforcement
+19,"Parked in a residents' or shared use parking place or zone with an invalid virtual permit or displaying an invalid physical permit or voucher or pay and display ticket, or after the expiry of paid for time - virtual permit"
+54,Failing to comply with a restriction on vehicles entering and waiting in a pedestrian zone
+24,Not parked correctly within the markings of the bay or space - voucher
+21,Parked wholly or partly in a suspended bay or space - dedicated disabled bay
+5,Parked after the expiry of paid for time voucher
+61,"A heavy commercial vehicle wholly or partly parked on a footway, verge or land between two carriageways - on vehicle crossover"
+46,Stopped where prohibited (on a red route or clearway)
+48,"Stopped in a restricted area outside a school, a hospital or a fire, police or ambulance station when prohibited - camera enforcement"
+52,Failing to comply with a prohibition on certain types of vehicle (goods vehicles exceeding max gross weight indicated)
+16,Parked in a permit space or zone without a valid virtual permit or clearly displaying a valid physical permit where required - hospital bay
+,
