@@ -5,7 +5,7 @@ Looking for Mr Whippy
 
 Ice-cream vans are often observed in summer parked at the northern corner of South End Road and South Hill Park. It is an ideal location for selling ice cream, right in the stream of foot traffic entering Hampstead Heath from South End Green and from Hampstead Heath Overground station. 
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d196.4750210327466!2d-0.16617485454864922!3d51.555277924775964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1597874089232!5m2!1sen!2suk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+[Google Map](https://goo.gl/maps/JchNf7Kv4x5AEKu67)
 
 But selling ice cream there
 
