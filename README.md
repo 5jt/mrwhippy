@@ -2,10 +2,9 @@ Looking for Mr Whippy
 =====================
 
 
-
 Ice-cream vans are often observed in summer parked at the northern corner of South End Road and South Hill Park. It is an ideal location for selling ice cream, right in the stream of foot traffic entering Hampstead Heath from South End Green and from Hampstead Heath Overground station. 
 
-[Google Map](https://goo.gl/maps/JchNf7Kv4x5AEKu67)
+[![Ice-cream van at the bottom of South Hill Park NW3, 2020-08-08](img/IMG_1531.jpg)](https://goo.gl/maps/JchNf7Kv4x5AEKu67 "Click for Google Map")
 
 But selling ice cream there
 
@@ -51,7 +50,7 @@ Records were filtered as follows.
 The script’s filters yield a table `local` of 903 records, saved as [`local.csv`](local.csv).
 
 The database has 122 values for contravention code. 
-Inspection (see [`off.csv`](off.csv) finds only `1` and `2` as candidates for parking on double yellow lines.
+Inspection (see [`off.csv`](off.csv)) finds only `1` and `2` as candidates for parking on double yellow lines.
 An enforcement officer confirmed verbally that these are the correct codes.
 
 Querying the `local` table for records where the contravention code is either 1 or 2 yields the following.
@@ -73,8 +72,8 @@ cdate      ctime ccode cdesc                                                 str
 
 Requirements
 ------------
-The q language, which is part of kdb+. 
-A copy for non-commercial use can be obtained gratis from [code.kx.com](https://code.kx.com/q/learn/install/).
+-   The q language, which is part of kdb+. A copy for non-commercial use can be obtained gratis from [code.kx.com](https://code.kx.com/q/learn/install/).
+-   About 700MB disk space
 
 
 Evidence
